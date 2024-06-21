@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compound-interest.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Compound Interest Calculator</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"
+            style="background-color: lightgrey; height: 8rem; width: 100%;">
+            <div class="container-md">
+                <h1 style="font-weight: 600;">Compound Interest Calculator</h1>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class="bg-light p-3">
+                <form>
+                    <div class="mb-5">
+                        <label for="Initial Investment" class="form-label">
+                            <h3>Initial Investment ( &#x20b9 ) : </h3>
+                        </label>
+                        <input type="number" class="form-control" id="initialInvestment">
+                    </div>
+                    <div class="mb-5">
+                        <label for="Annual Interest Rate" class="form-label">
+                            <h3>Annual Interest Rate ( &#37 ) : </h3>
+                        </label>
+                        <input type="number" class="form-control" id="annualInterestrate">
+                    </div>
+                    <div class="mb-5">
+                        <label for="Number of Years" class="form-label">
+                            <h3>Number of Years : </h3>
+                        </label>
+                        <input type="number" class="form-control" id="timeInyears">
+                    </div>
+                    <button class="btn btn-primary" onclick="calculate()">
+                        <h2>Calculate</h2>
+                    </button>
+                    <span>
+                        <h3 id="interestEarned"></h3>
+                        <h3 id="TotalValue"></h3>
+                        <h3 id="PrincipalAmount"></h3>
+                    </span>
+                </form>
+            </article>
+        </section>
+    </main>
+    <script src="compound-Interest.js"></script>
+</body>
+
+</html>
