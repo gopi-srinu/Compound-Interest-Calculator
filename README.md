@@ -1,4 +1,5 @@
 Compound Interest Calculator
+
 This web application calculates compound interest based on user-provided inputs such as initial investment, annual interest rate, and number of years.
 
 Introduction
