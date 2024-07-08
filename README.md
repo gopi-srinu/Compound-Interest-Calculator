@@ -1,23 +1,28 @@
-Compound Interest Calculator
+# Compound Interest Calculator
 
-This web application calculates compound interest based on user-provided inputs such as initial investment, annual interest rate, and number of years.
+This application computes compound interest based on user inputs such as starting investment, number of years, and yearly percentage rate.
 
-Introduction
-The Compound Interest Calculator is a simple web-based tool designed to help users estimate the growth of their investments over time. It takes three inputs from the user—initial investment amount, annual interest rate, and number of years—and calculates the total value of the investment including the interest earned.
 
-Features
-1. Input Fields: Allows users to enter their initial investment amount, annual interest rate, and number of years.
-2. Calculate Button: Computes compound interest based on user inputs.
-3. Result Display: Shows the calculated interest earned, total value of the investment, and principal amount.
+## Installation
 
-Technologies Used
-1. HTML: Structure of the web page.
-2. CSS: Styling of the user interface.
-3. JavaScript: Calculation logic and DOM manipulation.
-4. Bootstrap: Responsive design and styling components.
+Clone the repository
 
-Usage
-1. Enter the initial investment amount (in Indian Rupees).
-2. Enter the annual interest rate (in percentage).
-3. Enter the number of years for which the investment will grow.
-4. Click on the "Calculate" button to see the results.
+```bash
+  git clone https://github.com/gopi-srinu/Compound-Interest-Calculator.git
+```
+Navigate to the project directory
+```bash
+  cd Compound-Interest-Calculator
+```
+Run the Application
+```bash
+  Open the compound-Interest.html with Live server or preferred browser.
+```
+
+## Usage
+- Enter the initial Investment amount and also the annual interest rate and also enter the number of years to calculate the Compound Interest.
+
+
+## Tech Stack
+
+**Client:** HTML5, CSS3, JAVASCRIPT
